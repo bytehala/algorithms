@@ -36,16 +36,16 @@ public class Problem19 {
         // 1,2,3,4,5 | 2 -> 1,2,3,5
         ListNode head;
 //
-        head = ListNodeUtils.makeLisNodes(new int[]{1, 2, 3, 4, 5});
+        head = ListNodeUtils.makeListNodes(new int[]{1, 2, 3, 4, 5});
         ListNodeUtils.printListNode(s.removeNthFromEnd(head, 2));
 
-        head = ListNodeUtils.makeLisNodes(new int[]{1, 2});
+        head = ListNodeUtils.makeListNodes(new int[]{1, 2});
         ListNodeUtils.printListNode(s.removeNthFromEnd(head, 1));
 
-        head = ListNodeUtils.makeLisNodes(new int[]{1, 2});
+        head = ListNodeUtils.makeListNodes(new int[]{1, 2});
         ListNodeUtils.printListNode(s.removeNthFromEnd(head, 2));
 
-        head = ListNodeUtils.makeLisNodes(new int[]{1});
+        head = ListNodeUtils.makeListNodes(new int[]{1});
         ListNodeUtils.printListNode(s.removeNthFromEnd(head, 1));
 
     }

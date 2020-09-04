@@ -2,7 +2,7 @@ package leetcode.util;
 
 public class ListNodeUtils {
 
-    public static ListNode makeLisNodes(int[] contents) {
+    public static ListNode makeListNodes(int[] contents) {
         ListNode head = new ListNode(contents[0]);
         ListNode next = head;
         for(int i = 1; i < contents.length; i++) {
