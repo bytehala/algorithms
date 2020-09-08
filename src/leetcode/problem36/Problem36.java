@@ -22,15 +22,19 @@ class Solution {
         return true;
     }
 
-    public boolean isValidQuadrant(char[][] board, int x, int y) {
+    public boolean isValidSquare(char[][] board, int x, int y) {
         char value = board[y][x];
-        int xQuadrantStart = (x / 3) * 3;
-        int yQuadrantStart = (y / 3) * 3;
+
+        // Gets the top left corner of the 3x3 square:
+        int xSquareStart = (x / 3) * 3;
+        int ySquareStart = (y / 3) * 3;
 
         for(int yAdd = 0; yAdd < 3; yAdd++)
             for (int xAdd = 0; xAdd < 3; xAdd++) {
-                if (yQuadrantStart + yAdd != y && xQuadrantStart + xAdd != x &&
-                        board[yQuadrantStart + yAdd][xQuadrantStart + xAdd] == value) {
+                int currentX = xSquareStart + xAdd;
+                int currentY = ySquareStart + yAdd;
+                if (currentY != y && currentX != x &&
+                        board[currentY][currentX] == value) {
                     return false;
                 }
             }
@@ -43,7 +47,7 @@ class Solution {
             for(int x = 0; x < board.length; x++) {
                 if (board[y][x] != '.' && (!isValidHorizontal(board, x, y) ||
                         !isValidVertical(board, x, y) ||
-                        !isValidQuadrant(board, x, y))
+                        !isValidSquare(board, x, y))
                 ) {
                     return false;
                 }
