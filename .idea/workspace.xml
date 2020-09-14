@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8876b504-3d1e-40c1-a943-542cfe98b0ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problem34/Problem34.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problem36/Problem36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem36/Problem36.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +47,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem36">
+  <component name="RunManager" selected="Application.Problem34">
     <configuration name="Problem19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.problem19.Problem19" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.problem19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._21.Problem21" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode._21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.problem34.Problem34" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.problem34.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Problem36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.problem36.Problem36" />
       <module name="algorithms" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem34" />
         <item itemvalue="Application.Problem36" />
         <item itemvalue="Application.Problem29" />
         <item itemvalue="Application.Problem24" />
         <item itemvalue="Application.Problem19" />
-        <item itemvalue="Application.Problem21" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +158,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/problem36/Problem36.java</url>
           <line>5</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/problem34/Problem34.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
